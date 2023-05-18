@@ -2,7 +2,7 @@ import React from "react";
 import { string } from "prop-types";
 import Link from "next/link";
 import LinkButton  from "@app/components/LinkButton";
-import {Card} from "@app/components/AppCard/Card";
+import AppCard from "@app/components/AppCard/Card";
 import Image from "next/image";
 
 
@@ -42,7 +42,7 @@ const DestinationCard = ({
   imgMap,
 }) => {
   return (
-    <Card imgUrl={imgUrl}>
+    <AppCard imgUrl={imgUrl}>
       <figcaption className="fig-caption">
         <h2 className="font-flair text-white">{heading}</h2>
         <p className="text-white ibm-font-18">{description}</p>
@@ -58,7 +58,7 @@ const DestinationCard = ({
           {district}
         </Link>
       </h5>
-    </Card>
+    </AppCard>
   );
 };
 

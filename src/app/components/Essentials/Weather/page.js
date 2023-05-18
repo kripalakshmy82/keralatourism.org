@@ -1,10 +1,11 @@
 import React from "react";
-
+import Script from 'next/script';
 import { Col } from "react-bootstrap";
-import useScript from "@hooks/useScript";
+
 
 const Weather = () => {
-  useScript("https://weatherwidget.io/js/widget.min.js");
+
+  <Script src="https://weatherwidget.io/js/widget.min.js" />
 
   return (
     <Col xs={12} className="h-100 bg-light">

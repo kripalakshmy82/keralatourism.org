@@ -1,13 +1,13 @@
 import React from "react";
 import { Row } from 'react-bootstrap';
 
-// import Form from './Form';
+import Form from './Form/page';
 import Promotion from "../Promotion/page";
 
 const WhereToStay = () => {
   return (
     <Row>
-      {/* <Form/> */}
+      <Form/>
       <Promotion
         heading={`Ten off-beat wedding locations in Kerala`}
         description={`If you are looking forward to a luxury wedding, than you have a myriad places to choose from.`}

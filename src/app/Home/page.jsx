@@ -8,7 +8,7 @@ import {
   Destination,
   SocialGallery,
  PromotionVideo,
-//  Discover
+ Discover
  } from "./shared/page"
 
 import  Essentials from "@app/components/Essentials/page";
@@ -22,7 +22,7 @@ const page = () => {
       <Essentials />
       <Story />
       <Memories />
-      {/* <Discover/> */}
+      <Discover/>
        <KeralaStory />
       <Events/> 
      <Destination/>

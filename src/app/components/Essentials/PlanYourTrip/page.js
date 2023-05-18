@@ -4,7 +4,7 @@ import { Tab, Nav, Row, Col } from "react-bootstrap";
 import WhereToStay from './WhereToStay';
 import TourOperator from './TourOperator';
 import Itinerary from './Itinerary';
-// import Weather from '../Weather';
+import Weather from '../Weather/page';
 
 const tabItems = [
   {
@@ -54,7 +54,7 @@ const PlanYourTrip = () => {
           </Tab.Content>
         </Col>
         <Col xs={4}>
-          {/* <Weather /> */}
+          <Weather />
         </Col>
       </Row>
     </Tab.Container>

@@ -2,7 +2,7 @@ import HomeStorySlider from './HomeStory/page';
 import WhatNew from "./WhatNew/page";
 import Story from "./Story/page";
 import Memories from "./Memories/page";
-// import Discover from './Discover/page';
+import Discover from './Discover/page';
 import KeralaStory from "./KeralaStory/page";
 import Events from './Events/page';
 import Destination from './Destination/page';
@@ -14,7 +14,7 @@ export {
   WhatNew, 
   Story, 
   Memories,
-  // Discover,
+  Discover,
   KeralaStory,
   Events,
   Destination,

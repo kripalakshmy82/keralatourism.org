@@ -217,14 +217,14 @@ export const places = [
     title: "Valiyathura Beach and Pier",
     description:
       "Away from the hustle bustle of the city is situated this beautiful beach, Valiyathura, which is one of the major fishing ports in Thiruvananthapuram.",
-    mobileImgUrl: "places/places-mobile.jpg",
+    mobileImgUrl: "/places/places-mobile.jpg",
     imgUrl: "/places/places-1.jpg",
   },
   {
     title: "Parambikulam",
     description:
       "Panoramic landscape, meandering streams, cascading waterfalls, unique trekking trails and a diverse flora and fauna — the forests of Parambikulam won't let you down.",
-    mobileImgUrl: "places/places-mobile.jpg",
+    mobileImgUrl: "/places/places-mobile.jpg",
     imgUrl: "/places/places-2.jpg",
   },
 ];

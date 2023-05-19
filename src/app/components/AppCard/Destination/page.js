@@ -29,7 +29,7 @@ const FavIcon = () => {
 const CardBackground = ({ backgroundImg }) => {
   return (
     <span className="icon-map -trans position-absolute">
-      <Image src={backgroundImg} alt="" title="" width={672} height={1050} />
+      <Image src={backgroundImg} alt="" title="" width={160} height={291} />
     </span>
   )
 };
